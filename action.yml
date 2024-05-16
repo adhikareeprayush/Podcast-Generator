@@ -3,7 +3,7 @@ author: "Prayush Adhikari"
 description: "Generates a feed for a podcast from a YAML file"
 runs:
   using: "docker"
-  image: "podcast-generator-image"  # Replace "podcast-generator-image" with your actual Docker image name
+  image: "Dockerfile" 
 branding: 
   icon: "git-branch"  # Check GitHub's available icons for correct names
   color: "red"  # Choose a valid color for your branding
