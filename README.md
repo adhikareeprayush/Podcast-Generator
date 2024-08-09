@@ -2,12 +2,12 @@
 
 A Github action to generate a podcast feed from a YAML fille. YAML is much easier to read and write than XML, and this action will convert your YAML file into a valid podcast feed.
 
-###Usage
+### Usage
 
-#####Turn on Github Pages
+##### Turn on Github Pages
 In your repository, go to Settings> Pages and select the main branch as the source. This will create a link to your page and gice all of the content in the main brbanch a URL. Note the URL for the next step.
 
-#####Create a YAML File
+##### Create a YAML File
 Create a YAML file in your repository with the following format
 ```
 title: <Podcast Title>
@@ -29,7 +29,7 @@ item:
 ....Repeat for each episode
 ```
 
-#####Sample Workflow
+##### Sample Workflow
 You're also going to need your own workflow file. Here's a sample:
 ```
 name: Generate Feed
